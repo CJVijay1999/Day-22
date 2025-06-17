@@ -18,6 +18,26 @@
     }
 
     to {
-        transform: translateX(250%);
+        transform: translateX(100%);
     }
+    0% {
+    background: #FFEDF3;
+    left: 0px; top: 0px;
+  }
+  25% {
+    background: #ADEED9;
+    left: 200px; top: 0px;
+  }
+  50% {
+    background: #56DFCF;
+    left: 200px; top: 200px;
+  }
+  75% {
+    background: #0ABAB5;
+    left: 0px; top: 200px;
+  }
+  100% {
+    background: #000202;
+    left: 0px; top: 0px;
+  }
 }
